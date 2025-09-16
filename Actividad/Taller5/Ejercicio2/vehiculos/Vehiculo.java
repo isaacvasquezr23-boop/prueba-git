@@ -1,5 +1,11 @@
 package Ejercicio2.vehiculos;
 
-public class MediosDeTransporte {
+class Vehiculo  {
     
+    String tipo = "Genérico"; 
+
+    void mostrarTipo() {
+        System.out.println("Tipo de vehículo: " + tipo);
+    }
 }
+
